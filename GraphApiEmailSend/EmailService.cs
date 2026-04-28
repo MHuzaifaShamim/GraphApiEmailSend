@@ -13,8 +13,7 @@ public class EmailService
         var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
         _graphClient = new GraphServiceClient(credential);
     }
-    // R&D Task: Testing PR workflow).
-    // R&D Task: Testing PR workflow).
+    // R&D Devops
     public async Task SendProfessionalEmailAsync(string senderEmail, string recipientEmail, string recipientName, List<string> filePaths)
     {
         try
